@@ -1,0 +1,8 @@
+INPUT
+stars data/stars/empty.csv
+neighbors 0 "Sol"
+radius 0 "Sol"
+OUTPUT
+ERROR: Star does not exist
+ERROR: Star does not exist
+END

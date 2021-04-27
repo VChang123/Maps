@@ -1,0 +1,5 @@
+INPUT
+map data/maps/notValid.db
+OUTPUT
+ERROR: Database table is incorrectly formatted
+END

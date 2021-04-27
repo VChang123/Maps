@@ -1,0 +1,9 @@
+INPUT
+stars data/stars/one-star.csv
+naive_radius -1 12.0025 1.0257 -105.5236
+naive_radius -1 "Lonely Star"
+OUTPUT
+Read 1 stars from data/stars/one-star.csv
+ERROR: Radius must be non-negative
+ERROR: Radius must be non-negative
+END

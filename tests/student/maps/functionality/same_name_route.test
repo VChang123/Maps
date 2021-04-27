@@ -1,0 +1,7 @@
+INPUT
+map data/maps/maps.sqlite3
+route "Yubaba St" "Yubaba St" "Chihiro Ave" "Sootball Ln"
+OUTPUT
+map set to data/maps/maps.sqlite3
+ERROR: An intersection does not exist between two of the roads
+END

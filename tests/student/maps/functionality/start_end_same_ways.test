@@ -1,0 +1,6 @@
+INPUT
+map data/maps/maps.sqlite3
+ways 41.28 -70.23 41.28 -70.23
+OUTPUT
+map set to data/maps/maps.sqlite3
+END

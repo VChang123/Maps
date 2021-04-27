@@ -1,0 +1,5 @@
+INPUT
+masp data/maps/smallMap.sqlite3
+OUTPUT
+ERROR: masp is not a valid command
+END

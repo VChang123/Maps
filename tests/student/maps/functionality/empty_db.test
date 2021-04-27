@@ -1,0 +1,9 @@
+INPUT
+map data/maps/empty.db
+nearest 40 -70
+ways 40 -71 40 -70
+route 40 -70 41 -71
+OUTPUT
+map set to data/maps/empty.db
+ERROR: Invalid parameters for route command
+END

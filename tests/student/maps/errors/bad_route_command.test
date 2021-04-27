@@ -1,0 +1,5 @@
+INPUT
+rout 41.8 -71.3 42 -72
+OUTPUT
+ERROR: rout is not a valid command
+END

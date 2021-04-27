@@ -1,0 +1,6 @@
+INPUT
+stars data/stars/empty.csv
+neighbors 1 12.0025 1.0257 -105.5236
+radius 1 12.0025 1.0257 -105.5236
+OUTPUT
+END

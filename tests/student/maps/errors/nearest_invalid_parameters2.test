@@ -1,0 +1,7 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+nearest 143
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+ERROR:Ill-formed nearest command
+END

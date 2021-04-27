@@ -1,0 +1,33 @@
+The dataset you created was not bias-free. What are some assumptions that the
+developers of Mockaroo made about the types you explored? Who might be left
+out of the dataset? Consider the falsehoods you explored earlier.
+
+The developers assumed that:
+- everyone has a name that follows UTF-8 characters or at least has an
+    "English" sounding name.
+- people don't have more than 1 first name
+- people live in places with English-sounding roads
+- these addresses are distinct and don't require a zipcode
+
+When you made decisions about how you modelled your dataset, you made
+predictions about what future data you would be encountering. How did you
+make these decisions? Can you think of any edge cases that might break your
+model?
+
+I assumed that some people wouldn't want to put their last names, might not
+have an email address, or didn't feel comfortable putting in their addresses.
+An edge case that might break my model is if someone didn't have a name or
+didn't have anywhere fixed to live.
+
+
+In this assignment we ask you to build an extensible REPL. How have you made
+your REPL extensible (beyond accessing multiple commands)? Let’s say you wanted
+to reuse your REPL code. What changes need to be made (if any) to your REPL?
+Consider the inversion-of-control reading and Lecture 2.
+
+Besides making it easier access to multiple commands, I haven't built a very
+extensible REPL, I'm not realizing. Instead of parsing the command line
+input inside of the REPL, it might be better to parse within the individual
+methods because the regex pattern needed might be different. Also, I realized
+while creating my MockPerson that having my execute functions take in a
+starsList is not an extensible, so I may need to change that.

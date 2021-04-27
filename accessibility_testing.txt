@@ -1,0 +1,36 @@
+How might a non-impaired user might benefit from increased web accessibility
+(that isn’t already discussed above)?
+
+Increased web accessibility, even for a non-impaired user, means a cleaner,
+easier-to-use user experience. More diverse groups of people can use
+accessible websites, as people may be trying to find different
+kinds of information. Making the website easy to use ultimately means
+that more people can derive a use from the website.
+
+
+What are three design choices that User Inyerface made that harmed your user
+experience? Explain how you would alter each design choice to improve
+accessibility and usability.
+
+Green button saying no is very unintuitive not to press since we associate
+green with "go". Also, the green button served no purpose, though the
+color change and round shape, to me, suggested that it was something
+I needed to press. Finally, the click was underlined and underlining
+usually means a link, even though it didn't direct anywhere.
+I'd get rid of the no in the button and the small font at the bottom, and
+perhaps change the button to direct to the next page.
+
+What are three changes you made to your site to increase your Lighthouse
+(or other) audit score? Explain how each change increases your site’s
+performance or accessibility.
+
+I added a meta tag. Meta tags are important because this is how the page
+can communicate with search engines, which affect how easy it is to find
+the page.
+
+I changed my images to have an alt tag. This allows people who are
+visually-impaired to be able to know what the image is.
+
+I added a language tag. This helps web crawlers (making it easier to
+find information about the site) and screen readers (which aid the visually-
+impaired) know the language of the page.

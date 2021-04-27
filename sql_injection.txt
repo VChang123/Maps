@@ -1,0 +1,23 @@
+What string did you input that successfully cleared the database?
+How did you figure out that this was the correct string to input?
+    The string that was inputted to clear the database was < get id = 1; DROP table soldier;-- >. This
+    was figured out based on the readings. First the 3 commands the query allowed were found, get, get<condition>,
+    and add <name><age>. Then as we played around with the three commands, we noticed that the only
+    command that would allow us to input extra inputs was the get <condition>. Based on the readings the semi-colon
+    can be used to allow multiple SQL statements to be executed at once so after the first semi-colon, we
+    were able to add our own SQL injection. After looking at the available commands that SQL offered, DROP TABLE
+    seemed to be to correct function that would clear the database.
+
+
+Keep playing with the database. What else were you able to get the app to do?
+    get id = 1; OR '1' = '1'; prints out everything in that row
+    get id = 1; DELETE FROM soldier; deletes the row with the id 1
+    get id = 1; SELECT*FROM soldier WHERE age <=19; gets the rows where soldier age is less than 19
+    Essentially after the first semicolon (get id = 1;) you can put any sql commands and do whatever
+    you want in the query.
+
+
+How might you ensure that SQL injections can’t occur on your own software?
+    A way to ensure that SQL injections can not occur in our own software is to use prepared statements.
+    By providing setter method to set values a prepared statement avoids the use of quotes and other special
+    characters with in the query, and thereby it escapes the SQL injection attacks.

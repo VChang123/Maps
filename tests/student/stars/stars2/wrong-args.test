@@ -1,0 +1,21 @@
+INPUT
+stars data/stars/one-star.csv
+neighbors 0
+radius
+neighbors
+neighbors 0 5 -2.24 10.04 15 26
+radius 0
+radius 0 5 -2.24 10.04 15 26
+neighbors 0 1
+radius 0 1
+OUTPUT
+Read 1 stars from data/stars/one-star.csv
+ERROR: syntax is naive_neighbors k x y z or naive_neighbors k "name"
+ERROR: syntax is naive_radius k x y z or naive_radius k "name"
+ERROR: syntax is naive_neighbors k x y z or naive_neighbors k "name"
+ERROR: syntax is naive_neighbors k x y z or naive_neighbors k "name"
+ERROR: syntax is naive_radius k x y z or naive_radius k "name"
+ERROR: syntax is naive_radius k x y z or naive_radius k "name"
+ERROR: Star does not exist
+ERROR: Star does not exist
+END

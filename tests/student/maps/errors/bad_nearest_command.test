@@ -1,0 +1,5 @@
+INPUT
+nerest 42 -72
+OUTPUT
+ERROR: nerest is not a valid command
+END

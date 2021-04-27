@@ -1,0 +1,5 @@
+INPUT
+way 42 -72 41.8 -71.3
+OUTPUT
+ERROR: way is not a valid command
+END

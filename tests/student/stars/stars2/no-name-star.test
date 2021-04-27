@@ -1,0 +1,10 @@
+INPUT
+stars data/stars/blank-stars.csv
+neighbors 1 ""
+radius 1 ""
+OUTPUT
+ERROR: ID and coordinates must be numbers
+ERROR: ID and coordinates must be numbers
+Read 1 stars from data/stars/blank-stars.csv
+ERROR: Cannot search for star without a name
+END

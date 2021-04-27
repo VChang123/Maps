@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 30px 10px 15px 0;
+    font-size: 32px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom:10px;
+}
+
+.star-name {
+    margin-top: 25px;
+}
+
+.or {
+    margin-top:8px;
+    font-size: 15px;
+}
+
+.coordinates-label {
+    margin-top:-10px;
+    font-size: 15px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.bubble {
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px;
+    width: 20%;
+    border: 1px solid black;
+}
+
+.bubble:hover {
+    width: 21%;
+    height: 22%;
+    background: #eff7fa
+}
+
+.coordinate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.coord-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.coord-input {
+    width: 50%;
+}
+
+label {
+    font-size: 15px;
+}
+
+.instructions>p {
+    width: 60%;
+    font-size: 15px;
+}
+
+.instructions {
+    padding-bottom:30px;
+}
+
+.results {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.star-img {
+    padding: 10px 80px 0 0;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 14px;
+    width : 170px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button, select, textarea {
+    border-radius: 5px;
+}
+
+input:hover {
+    height: 21px;
+}

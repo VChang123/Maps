@@ -1,0 +1,36 @@
+1. GDPR requires that you specify exactly what you intend to do with each data point.
+each data point that you’re gathering from your users (Name, location, timestamp).
+Writing to a user, justify why each data point is needed in an imaginary final version of your application:
+what eventual functionality might use the data?
+
+To create a functioning maps, we need to collect information around name, location, and
+time stamp for multiple reasons. Eventually, this data will be used to allow a user
+to use the maps to either track their own location, a friend's location, or make sure
+they are on the right path to the final destination that they mapped on our maps. Here,
+collecting a name is really important so we don't mix up a user with other users,
+and give them unnecessary data, or expose the location of another user who
+might not want their location known. The location is very important to collect as well
+to know where a user is on the map to provide the necessary information the user
+needs, either to know where they are or where they're going. Finally, the time stamp is
+super important, since a user can move around, so non time stamped data
+wouldn't be particularly helpful if a user is walking around, not knowing where they are,
+and our maps can't tell if their location is current or from 5 minutes ago.
+
+
+
+
+
+
+
+
+2. Consider a more complex application that you’ve interacted with before (Facebook, Steam, MyAnimeList)
+why might it be difficult to delete all of the data on a user? Consider factors unique to the application
+you've chosen; specifically those other than volume or size of data.
+
+Some of the difficulties that we might encounter when deleting all the data on a user in more complex
+application is that the volume of that specific person's data may be linked to other peoples information. For
+example if a person were to delete their Facebook account, then all their friends need have that persons
+information removed from their friend list as well. Posts that were made by the person would have to be
+deleted and the comments below it so it may be hard to completely remove all the persons data from this platform.
+For most large platforms they have user data stored in multiple places so that persons data would have to
+be removed from all those places which could prove to be difficult in case a place is missed.

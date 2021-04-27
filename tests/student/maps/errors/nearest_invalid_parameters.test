@@ -1,0 +1,7 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+nearest 143 hi
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+ERROR:Invalid parameters for nearest command
+END

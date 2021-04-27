@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: lightskyblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Maps {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* The controls */
+.side {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 27%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  line-height: 40px;
+  background-color: #3587A4;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  transition: 0.5s;
+}
+
+/* the vissual map */
+.main {
+  background-color:#C1DFF0;
+  margin-left: 350px;
+  line-height: 20%;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.results{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+.canvasPlacement {
+  alignment: center;
+}
+
+.instructions {
+  background: #6baec4;
+  color: white;
+  width: 750px;
+  height: 140px;
+  margin: 0 auto 20px;
+  line-height: 20px;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 25px;
+  padding: 3%;
+}
+.outercheckin {
+  height: 400px;
+  background:#5b95b3;
+  padding: 3%;
+  alignment: center;
+  line-height: 20px;
+  float: left;
+  width: 20%;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 25px;
+  position: absolute;
+  left: 470px;
+  padding: 3%;
+
+}
+.checkin {
+  alignment: center;
+  background: #5b95b3;
+  line-height: 20px;
+  height: 400px;
+  overflow-y: scroll;
+  border-radius: 25px;
+}
+.outeruser{
+  alignment: center;
+  background: #5b95b3;
+  line-height: 20px;
+  margin-left:50%;
+  width: 29%;
+  height: 420px;
+  padding: 3%;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 25px;
+}
+.userdata {
+  alignment: center;
+  background: #5b95b3;
+  line-height: 20px;
+  height: 400px;
+  overflow-y: scroll;
+  border-radius: 25px;
+}
+.feed {
+  color: white;
+  font-size: small;
+  background-color: #84b4ca;
+  border-radius: 15px;
+  padding: 1%;
+  margin: 2%;
+  list-style: none;
+}
+.user {
+  color: white;
+  font-size: small;
+  background-color: #84b4ca;
+  border-radius: 15px;
+  padding: 1%;
+  margin: 2%;
+  list-style: none;
+}

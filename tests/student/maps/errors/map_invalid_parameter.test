@@ -1,0 +1,5 @@
+INPUT
+map hello
+OUTPUT
+ERROR: File doesn't exist
+END

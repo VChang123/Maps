@@ -1,0 +1,17 @@
+INPUT
+stars data/stars/one-star.csv
+naive_radius 0 Sol
+naive_neighbors 0 Sol
+naive_radius 0 "Sol
+naive_neighbors 0 "Sol
+naive_radius 0 Sol"
+naive_neighbors 0 Sol"
+OUTPUT
+Read 1 stars from data/stars/one-star.csv
+ERROR: Star name must be in quotes
+ERROR: Star name must be in quotes
+ERROR: Star name must be in quotes
+ERROR: Star name must be in quotes
+ERROR: Star name must be in quotes
+ERROR: Star name must be in quotes
+END

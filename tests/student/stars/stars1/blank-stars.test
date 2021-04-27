@@ -1,0 +1,7 @@
+INPUT
+stars data/stars/blank-stars.csv
+OUTPUT
+ERROR: ID and coordinates must be numbers
+ERROR: ID and coordinates must be numbers
+Read 1 stars from data/stars/blank-stars.csv
+END

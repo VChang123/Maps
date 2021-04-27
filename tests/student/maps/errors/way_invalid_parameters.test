@@ -1,0 +1,5 @@
+INPUT
+ways 12 84 12 ht
+OUTPUT
+ERROR: Invalid parameters for ways command
+END
